@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% block meta %}{% endblock %}
+
+    <title>{{title|e}}</title>
+    <link rel="icon" type=image/ico href="/static/cmefi_short.png"/>
+	
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/style-bs.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css" integrity="sha512-f2MWjotY+JCWDlE0+QAshlykvZUtIm35A6RHwfYZPdxKgLJpL8B+VVxjpHJwZDsZaWdyHVhlIHoblFYGkmrbhg==" crossorigin="anonymous" />
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css"/>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap5.min.js"></script>
+	
+	<script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script> <!-- HTML export buttons -->
+	
+	<!-- Bug with v9.0 stripping data-dir attributes from buttons -->
+    <script src="https://code.highcharts.com/stock/8.2/highstock.js"></script>
+	<script src="https://code.highcharts.com/8.2/modules/boost.js"></script>
+    {{ pageJS | raw }}
+
+    {% block staticlinks %}{% endblock %}
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5JBMJCQQD7"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-5JBMJCQQD7');
+	</script>
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid" style="height:.25rem;background-color:rgb(37, 48, 10);"></div>
+
+		<nav class="navbar navbar-expand-md navbar-dark sticky-top py-1 shadow-sm">
+			<div class="container-fluid">
+				<a class="navbar-brand py-0 ps-3" href="/">
+					<img src="/static/cmefi_full_inverted.png" alt="CMEFI Logo" class="py-0" height="45" style="image-rendering:-webkit-optimize-contrast">
+					<!--<span class="navbar-brand my-0 py-0 h2">The Center for Macroeconomic Forecasts & Insights</span>-->
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbarLg"><span class="navbar-toggler-icon"></span></button>
+
+				<div class="navbar-collapse collapse" id="collapsingNavbarLg">
+					<ul class="navbar-nav me-auto">						
+						<!--<li class="nav-item">
+							<a class="nav-link" href="/about"><i class="bi bi-bar-chart me-1"></i>GDP Forecasts</a>
+						</li>
+						-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+								<i class="bi bi-bar-chart-steps me-1"></i>Forecast Models
+							</a>
+							<div class="dropdown-menu">
+								<div class="d-md-flex align-items-start justify-content-start">
+									<div>   
+										<div class="dropdown-header py-0 px-3 border-bottom border-econgreen" style="font-size:1.0rem">TREASURY YIELDS</div>
+										<a class="dropdown-item" href="/fc-rates-t-info">Overview and Methodology</a>
+										<a class="dropdown-item" href="/fc-rates-tcurve">Full Treasury Yield Forecast</a>
+										<a class="dropdown-item" href="/fc-rates-t-3m">3 Month T-Bill Forecast</a>
+										<a class="dropdown-item" href="/fc-rates-t-1y">1 Year T-Note Forecast</a>
+										<a class="dropdown-item" href="/fc-rates-t-10y">10 Year T-Note Forecast</a>
+										<a class="dropdown-item" href="/fc-rates-t-30y">30 Year T-Bond Forecast</a>
+									</div>
+									<div>
+										<div class="dropdown-header py-0 px-3 border-bottom border-econgreen" style="font-size:1.0rem">OTHER INTEREST RATES</div>
+										<a class="dropdown-item" href="/fc-rates-ffr">Federal Funds Rate Forecast</a>
+										<a class="dropdown-item" href="/fc-rates-sofr">SOFR Forecast</a>
+									</div>
+								</div>
+								 <div class="dropdown-divider"></div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+								<i class="bi bi-gear-wide-connected me-1"></i>Indicators and Indices
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="/ac-assets"><span style="margin-left: 1rem">Asset Correlation Index</span></a></li>
+								<li><a class="dropdown-item" href="/ac-regions"><span style="margin-left: 1rem">Regional Correlation Index</span></a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<main >
+		{% block content %}
+		{% endblock %}
+	</main>
+
+	<footer class="container-fluid text-white px-0 bg-dark">
+	  <!-- Grid container -->
+	  <div class="container py-3">
+		<!--Grid row-->
+		<div class="row">
+		  <!--Grid column-->
+		  <div class="col-6 mb-2 mb-md-0">
+			<h5 class="text-uppercase">Links</h5>
+			<ul class="list-unstyled mb-0">
+			  <li>
+				<a href="https://cmefi.com" class="text-white">Center for Macroeconomic Forecasting and Insights</a>
+			  </li>
+			</ul>
+		  </div>
+		  <!--Grid column-->
+
+		  <!--Grid column-->
+		  <div class="col-6 mb-2 mb-md-0 text-end">
+			<h5 class="text-uppercase mb-0">CONTACT</h5>
+
+			<ul class="list-unstyled">
+			  <li>
+				<a href="mailto:charles@cmefi.com" class="text-white">Email: charles (at) cmefi (dotcom)</a>
+			  </li>
+			</ul>
+		  </div>
+		  <!--Grid column-->
+		</div>
+		<!--Grid row-->
+	  </div>
+	  <!-- Grid container -->
+
+	  <!-- Copyright -->
+	<div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.2)">
+		<div class="container text-end p-2">
+			<span>© 2021 <img class="mx-1" width="16" height="16" src="/static/cmefi_short.png"> The Center for Macroeconomic Forecasts &amp; Insights</span>
+		</div>
+	</div>
+	  <!-- Copyright -->
+	</footer>
+
+	
+
+        
+        
+        
+	<div class="overlay h-100" id="overlay" style="display:none">
+		<div class="row h-25">
+			<div class=""></div>
+		</div>
+		<div class="row">
+			<div class="text-center col-12"><h4 style="text-align:center" id="loadmessage">Loading ...</h4></div>
+		</div>
+		<div class="row">
+			<div class="sk-circle">
+				<div class="sk-circle1 sk-child"></div>
+				<div class="sk-circle2 sk-child"></div>
+				<div class="sk-circle3 sk-child"></div>
+				<div class="sk-circle4 sk-child"></div>
+				<div class="sk-circle5 sk-child"></div>
+				<div class="sk-circle6 sk-child"></div>
+				<div class="sk-circle7 sk-child"></div>
+				<div class="sk-circle8 sk-child"></div>
+				<div class="sk-circle9 sk-child"></div>
+				<div class="sk-circle10 sk-child"></div>
+				<div class="sk-circle11 sk-child"></div>
+				<div class="sk-circle12 sk-child"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+	  {{ bodyScript |raw }}
+	</script>
+
+</body>
+</html>
