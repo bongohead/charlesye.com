@@ -26,9 +26,13 @@ footer {
 	z-index: 96;
 }
 
+strong {
+	color: var(--bs-blue);
+}
+
 #homepage-banner{
 	background-image:
-		linear-gradient(165deg, rgba(247, 245, 206, .8) 50%, rgba(255, 255, 255, .3) 50%),
+		linear-gradient(45deg, rgba(35, 124, 220, .5) 50%, rgba(255, 255, 255, .9) 50%),
 		url(/static/d.svg),
 		url(/static/e.svg),
 		url(/static/c.svg),
@@ -49,7 +53,7 @@ footer {
 }
 
 #homepage-banner {
-	min-height: 30rem;
+	min-height: 10rem;
 }
 #homepage-banner .list-group {
 	border: 2px solid var(--bs-econblue);
@@ -122,15 +126,14 @@ div.homepage-links > a > div > span {
 
 
 /* Top Navbar */
-nav.navbar {
-	background-color: var(--bs-econgreen);
-}
-
 /* Top-level dropdown links */
 nav.navbar li.nav-item > a.nav-link {
-	color: rgba(255, 255, 255, .9);
+	color: rgba(255, 255, 255, 1.0);
 	font-size: .95rem;
 	border-radius: .25rem;
+}
+nav.navbar li.nav-item > a.nav-link:hover {
+	background-color: var(--bs-econlblue)
 }
 
 /* When dropdown is opened */

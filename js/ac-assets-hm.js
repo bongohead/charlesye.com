@@ -248,14 +248,14 @@ function drawHeatmap(acFund, acFundSeriesMap, acSeries, acActiveDate) {
 		title: {
 			text: 
 			`<div class="input-group">
-			  <span class="input-group-text bg-transparent py-0 pe-0" style="font-size:.8rem;color:white">Cross-Asset Correlation(</span>
-			  <button class="btn btn-sm btn-outline-secondary dropdown-toggle py-0 px-1" style="font-size:.78rem;color:white" type="button" data-bs-toggle="dropdown">${acFundSeriesMap[0].roll}</button>
+			  <span class="input-group-text bg-transparent py-0 pe-0" style="font-size:.8rem;color:black">Cross-Asset Correlation(</span>
+			  <button class="btn btn-sm btn-outline-secondary dropdown-toggle py-0 px-1" style="font-size:.78rem;color:black" type="button" data-bs-toggle="dropdown">${acFundSeriesMap[0].roll}</button>
 			  <ul class="dropdown-menu dropdown-menu-end">
 				<li><a class="dropdown-item roll-select">30</a></li>
 				<li><a class="dropdown-item roll-select">90</a></li>
 				<li><a class="dropdown-item roll-select">180</a></li>
 			  </ul>
-			  <span class="input-group-text bg-transparent py-0 ps-0" style="font-size:.8rem;color:white">-day rolling window)</span>
+			  <span class="input-group-text bg-transparent py-0 ps-0" style="font-size:.8rem;color:black">-day rolling window)</span>
 			</div>`,
 			useHTML: true
 		},

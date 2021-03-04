@@ -156,7 +156,7 @@ function drawChart(fcDataParsed, playIndex) {
 				fontFamily: '"Assistant", "sans-serif"',
 				fontcolor: 'rgb(48, 79, 11)'
 			},*/
-			height: 300,
+			height: 250,
 			//plotBorderColor: 'rgb(33, 37, 41)',
 			//plotBorderWidth: 2,
 			events: {
@@ -169,7 +169,7 @@ function drawChart(fcDataParsed, playIndex) {
 					console.log(distFromTop, distFromLeft);
 					this.renderer
 						.text('Forecast for ' + moment(fcDataParsed[playIndex].date).format('MMM YYYY'), distFromLeft, distFromTop)
-						.attr({'id': 'date-text', fill: 'rgb(135, 206, 235)', 'font-size': '1.0rem'})
+						.attr({'id': 'date-text', fill: 'darkgreen', 'font-size': '1.0rem'})
 						.add();
 					
 					/* Now render non-changing historical data on RHS */
@@ -189,7 +189,7 @@ function drawChart(fcDataParsed, playIndex) {
 			useHTML: true,
 			text: 
 			'<div class="row text-center justify-content-center">'+
-				'<span class="my-0 py-1" style="font-size: 1.0rem;">Treasury Yield Curve</span>'+
+				'<span class="my-0 py-1" style="font-size: .9rem;">Treasury Yield Curve Forecasts</span>'+
 			'</div>'+
 			'<div class="row text-center"><div class="col-12 btn-group d-inline-block" role="group" id="chart-subtitle-group">' +
 				'<button class="btn btn-secondary btn-sm" style="font-size:.8rem" type="button" >Click to play&nbsp;</button>'+
@@ -208,14 +208,14 @@ function drawChart(fcDataParsed, playIndex) {
 				}
 			},
 			min: 0,
-			max: 360
+			max: 360,
+			type: 'linear'
 		},
 		yAxis: {
 			title: {
 				text: null
 			},
-			min: 0,
-			max: 8
+			min: 0
 		},
 		legend: {
 			enabled: false
@@ -248,8 +248,8 @@ function drawChart(fcDataParsed, playIndex) {
         series: [{
             data: fcDataParsed[playIndex].data,
 			name: 'Yield',
-            type: 'spline',
-            color: 'rgb(33, 177, 151)',
+            type: 'area',
+            color: 'darkgreen',
 			/*
 			fillColor: {
                 linearGradient: [0, 0, 0, 300],
@@ -409,14 +409,14 @@ function updateChart() {
 	
 	/* Update chart data and colors */
 	chart.series[0].setData(newData, redraw = true, animation = {duration: 250}, updatePoints = true);
-	chart.series[0].update({color: (ud.fcDataParsed[ud.playIndex].type === 'forecast' ? 'rgb(33, 177, 151)' : 'yellow')})
+	chart.series[0].update({color: (ud.fcDataParsed[ud.playIndex].type === 'forecast' ? 'darkgreen' : 'darkorange')})
 	
 	/* Update chart title*/
 	if (ud.fcDataParsed[ud.playIndex].type === 'history') {
-		document.querySelector('#date-text').style.fill = 'yellow';
+		document.querySelector('#date-text').style.fill = 'darkorange';
 		document.querySelector('#date-text').textContent = 'Historical curve for ' + moment(ud.fcDataParsed[ud.playIndex].date).format('MMM YYYY');
 	} else {
-		document.querySelector('#date-text').style.fill = 'rgb(63, 217, 201)';
+		document.querySelector('#date-text').style.fill = 'darkgreen';
 		document.querySelector('#date-text').textContent = 'Forecasted curve for ' + moment(ud.fcDataParsed[ud.playIndex].date).format('MMM YYYY');
 	}
 	
