@@ -274,13 +274,13 @@ class __TwigTemplate_4848799cd9d7664fb9f430ea315c54eaf57da1e68128344aed928ef98c3
 \t\t\t\t\t\t\t\t\t<p>
 \t\t\t\t\t\t\t\t\tThis is a time series model and framework I wrote for <a href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\">nowcasting</a> (predicting the present and very near-term future, e.g. predicting current-quarter GDP growth). Nowcasting is about deciphering key information about the state of the economy before official data is released, using whatever information is available. This is useful for highly volatile situations where knowledge of the present is of immediate importance - e.g., forecasting the economy during the middle of the COVID-19 crisis.
 \t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\tThe model can be found <a href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\">here</a>, though I am also planning to built a web UI for the model on econforecasting.com sometime in 2021.
+\t\t\t\t\t\t\t\t\tThe model can be found <a href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\">here</a>, with visualization available <a href=\"https://econforecasting.com/nc-gdp\">here</a>.
 \t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t\t\t<hr>
 \t\t\t\t\t\t\t\t\t<h5>Code <a class=\"btn btn-sm btn-econblue text-white px-3 mx-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-r/blob/master/model-nowcasts.rmd\">Github - R</a>
-\t\t\t\t\t\t\t\t\t<a class=\"btn btn-sm btn-econblue text-white px-3 mx-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-r/blob/master/documentation/nowcast.tex\">Github - Latex</a>
+\t\t\t\t\t\t\t\t\t<a class=\"btn btn-sm btn-econblue text-white px-3 mx-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-r/blob/master/documentation-templates/nowcast.rnw\">Github - Latex</a>
 \t\t\t\t\t\t\t\t\t</h5>
-\t\t\t\t\t\t\t\t\t<p>Written with <strong>R</strong> and <strong>LaTeX</strong>.</p>
+\t\t\t\t\t\t\t\t\t<p>Written with <strong>R</strong>, <strong>PostgreSQL</strong>, and <strong>LaTeX</strong>.</p>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t<a class=\"col-md-12 col-lg-6 col-xl-4 d-block\" href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\" style=\"background-image:url(static/nowcast-time-3.png); background-size:cover;max-height:18rem\"></a>
 
@@ -625,13 +625,13 @@ class __TwigTemplate_4848799cd9d7664fb9f430ea315c54eaf57da1e68128344aed928ef98c3
 \t\t\t\t\t\t\t\t\t<p>
 \t\t\t\t\t\t\t\t\tThis is a time series model and framework I wrote for <a href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\">nowcasting</a> (predicting the present and very near-term future, e.g. predicting current-quarter GDP growth). Nowcasting is about deciphering key information about the state of the economy before official data is released, using whatever information is available. This is useful for highly volatile situations where knowledge of the present is of immediate importance - e.g., forecasting the economy during the middle of the COVID-19 crisis.
 \t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\tThe model can be found <a href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\">here</a>, though I am also planning to built a web UI for the model on econforecasting.com sometime in 2021.
+\t\t\t\t\t\t\t\t\tThe model can be found <a href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\">here</a>, with visualization available <a href=\"https://econforecasting.com/nc-gdp\">here</a>.
 \t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t\t\t<hr>
 \t\t\t\t\t\t\t\t\t<h5>Code <a class=\"btn btn-sm btn-econblue text-white px-3 mx-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-r/blob/master/model-nowcasts.rmd\">Github - R</a>
-\t\t\t\t\t\t\t\t\t<a class=\"btn btn-sm btn-econblue text-white px-3 mx-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-r/blob/master/documentation/nowcast.tex\">Github - Latex</a>
+\t\t\t\t\t\t\t\t\t<a class=\"btn btn-sm btn-econblue text-white px-3 mx-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-r/blob/master/documentation-templates/nowcast.rnw\">Github - Latex</a>
 \t\t\t\t\t\t\t\t\t</h5>
-\t\t\t\t\t\t\t\t\t<p>Written with <strong>R</strong> and <strong>LaTeX</strong>.</p>
+\t\t\t\t\t\t\t\t\t<p>Written with <strong>R</strong>, <strong>PostgreSQL</strong>, and <strong>LaTeX</strong>.</p>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t<a class=\"col-md-12 col-lg-6 col-xl-4 d-block\" href=\"https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf\" style=\"background-image:url(static/nowcast-time-3.png); background-size:cover;max-height:18rem\"></a>
 
