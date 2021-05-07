@@ -59,8 +59,8 @@ class __TwigTemplate_4848799cd9d7664fb9f430ea315c54eaf57da1e68128344aed928ef98c3
     {
         $macros = $this->macros;
         // line 9
-        echo "<script src=\"https://code.highcharts.com/8.2/highcharts-more.js\"></script>
-<script src=\"https://code.highcharts.com/8.2/modules/heatmap.js\"></script>
+        echo "<script src=\"https://code.highcharts.com/9.1/highcharts-more.js\"></script>
+<script src=\"https://code.highcharts.com/9.1/modules/heatmap.js\"></script>
 
 <!--<script src=\"//code.highcharts.com/stock/highstock.js\"></script>
 <script src=\"//code.highcharts.com/modules/heatmap.js\"></script>
@@ -414,8 +414,8 @@ class __TwigTemplate_4848799cd9d7664fb9f430ea315c54eaf57da1e68128344aed928ef98c3
 {% endblock %}
 
 {% block staticlinks %}
-<script src=\"https://code.highcharts.com/8.2/highcharts-more.js\"></script>
-<script src=\"https://code.highcharts.com/8.2/modules/heatmap.js\"></script>
+<script src=\"https://code.highcharts.com/9.1/highcharts-more.js\"></script>
+<script src=\"https://code.highcharts.com/9.1/modules/heatmap.js\"></script>
 
 <!--<script src=\"//code.highcharts.com/stock/highstock.js\"></script>
 <script src=\"//code.highcharts.com/modules/heatmap.js\"></script>

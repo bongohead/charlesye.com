@@ -230,6 +230,8 @@ function drawHeatmap(acFund, acFundSeriesMap, acSeries, acActiveDate) {
 	console.log('groups', groups);
 	
 	console.log('acActiveDate', acActiveDate);
+	Highcharts.AST.allowedAttributes.push('data-dir');
+
 	const chart = Highcharts.chart('heatmap-container', {
 		chart: {
 			height:350,
