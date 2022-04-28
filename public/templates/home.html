@@ -79,7 +79,7 @@
 					<h3 class="fw-bolder">Modeling</h3>
 					<hr>
 					<h5 class="pt-1">Data languages I speak:</h5>
-					<p><strong>R, Python, SQL</strong> (Postgres, MySQL, MS SQL)</p>
+					<p><strong>R, Python, SQL</strong> (Postgres, MySQL, MS SQL, Spark SQL, Hive, ClickHouse, Presto)</p>
 					<h5 class="pt-4">Modeling experience:</h5>
 					<p>I specialize in <strong>forecasting</strong>, <strong>causal modeling</strong>, and working with <strong>high-dimensional data</strong>.</p>
 					<h5 class="pt-4">Models:</h5>
@@ -98,7 +98,7 @@
 					<h5 class="pt-4">Server-side web development:</h5>
 					<p><strong>PHP</strong>, <strong>SQL</strong>, <strong>Python</strong>, Django, Nginx, Linux</p>
 					<h5 class="pt-4">Other:</h5>
-					<p>LaTeX, Wordpress, Git, Terminal</p>
+					<p>Rust, Bash, LaTeX, Wordpress, Git, Terminal</p>
 
 				</div>
 
@@ -177,12 +177,12 @@
 									<a href="https://econforecasting.com">Econforecasting.com</a> is a website I built to provide a free source of economic forecasts, models, and insights. Businesses rely on economic forecasts to make planning and investment decisions, yet the only sources of most of these forecasts is from expensive vendors charging in the five and six figures. I wanted to provide an open source, backtested, properly documented and free alternative.
 									</p>
 									<ul>
-										<li><a href="https://econforecasting.com/fc-rates-fc-rates-t-info">Treasury Yield Curve Forecasts</a></li>
-										<li><a href="https://econforecasting.com/fc-rates-fc-rates-ffr">Federal Funds Rate Forecasts</a></li>
-										<li><a href="https://econforecasting.com/ac-regions-hm">Asset Correlation Index</a></li>
+										<li><a href="https://econforecasting.com/forecast-treasury-curve">Treasury Yield Curve Forecasts</a></li>
+										<li><a href="https://econforecasting.com/forecast-ffr">Federal Funds Rate Forecasts</a></li>
+										<li><a style="text-decoration: line-through" href="https://econforecasting.com/ac-regions-hm">Asset Correlation Index</a> (2022Q2 - undergoing refactoring)</li>
 									</ul>
 									<p>
-									Data for the models was scraped from various free online sources (<a href="https://github.com/cmefi/econforecasting-r/blob/master/forecasts.rmd">code available here</a>). Economic modeling was conducted using a mix of structural economic estimation and some modern machine learning techniques.
+									Data for the models was scraped from various free online sources (<a href="https://github.com/cmefi/econforecasting-r/tree/master/modules">code available here</a>). Economic modeling was conducted using a mix of structural economic estimation and some modern machine learning techniques.
 									</p>
 									<hr>
 									<h5>Code</h5>
@@ -215,17 +215,17 @@
 								<div class="col-md-12 col-lg-6 col-xl-8">
 									<h5>About</h5>
 									<p>
-									This is a time series model and framework I wrote for <a href="https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf">nowcasting</a> (predicting the present and very near-term future, e.g. predicting current-quarter GDP growth). Nowcasting is about deciphering key information about the state of the economy before official data is released, using whatever information is available. This is useful for highly volatile situations where knowledge of the present is of immediate importance - e.g., forecasting the economy during the middle of the COVID-19 crisis.
+									This is a time series model and framework I wrote for <a href="https://github.com/cmefi/econforecasting-r/blob/master/nowcast-model-documentation.pdf">nowcasting</a> (predicting the present and very near-term future, e.g. predicting current-quarter GDP growth). Nowcasting is about deciphering key information about the state of the economy before official data is released, using whatever information is available. This is useful for highly volatile situations where knowledge of the present is of immediate importance - e.g., forecasting the economy during the middle of the COVID-19 crisis.
 									
-									The model can be found <a href="https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf">here</a>, with visualization available <a href="https://econforecasting.com/nc-gdp">here</a>.
+									The model can be found <a href="https://github.com/cmefi/econforecasting-r/blob/master/nowcast-model-documentation.pdf">here</a>, with visualization available <a href="https://econforecasting.com/nowcast-gdp">here</a>.
 									</p>
 									<hr>
-									<h5>Code <a class="btn btn-sm btn-econblue text-white px-3 mx-1 my-1" role="button" href="https://github.com/cmefi/econforecasting-r/blob/master/model-nowcasts.rmd">Github - R</a>
-									<a class="btn btn-sm btn-econblue text-white px-3 mx-1 my-1" role="button" href="https://github.com/cmefi/econforecasting-r/blob/master/documentation-templates/nowcast.rnw">Github - Latex</a>
+									<h5>Code <a class="btn btn-sm btn-econblue text-white px-3 mx-1 my-1" role="button" href="https://github.com/cmefi/econforecasting-r/blob/master/modules/nowcast-model/nowcast-model-run.r">Github - R</a>
+									<a class="btn btn-sm btn-econblue text-white px-3 mx-1 my-1" role="button" href="https://github.com/cmefi/econforecasting-r/blob/master/modules/nowcast-model/nowcast-model-documentation-template.rnw">Github - Latex</a>
 									</h5>
 									<p>Written with <strong>R</strong>, <strong>PostgreSQL</strong>, and <strong>LaTeX</strong>.</p>
 								</div>
-								<a class="col-md-12 col-lg-6 col-xl-4 d-block" href="https://raw.githubusercontent.com/cmefi/econforecasting-r/master/nowcast-documentation.pdf" style="background-image:url(static/nowcast-time-3.png); background-size:cover;max-height:18rem"></a>
+								<a class="col-md-12 col-lg-6 col-xl-4 d-block" href="https://github.com/cmefi/econforecasting-r/blob/master/nowcast-model-documentation.pdf" style="background-image:url(static/nowcast-time-3.png); background-size:cover;max-height:18rem"></a>
 
 							</div>
 						</div>

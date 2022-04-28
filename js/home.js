@@ -69,7 +69,7 @@ $(document).ready(function() {
 			
 		}
 		
-			var interval = setInterval(randomColors, 3000);
+			var interval = setInterval(randomColors, 8000);
 			var styleSheet = $('#style');
 			var intervalCount = 0;
 			function randomColors() {
@@ -103,9 +103,11 @@ $(document).ready(function() {
 					
 					var rule = `@keyframes ani-${id} {\n` + 
 							`0% {fill: ${prevColor};}\n` +
-							`25% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))*.25,grMap,'rgba')};}\n` +
-							`40% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))*.4,grMap,'rgba')};}\n` +
-							`50% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))*.5,grMap,'rgba')};}\n` +
+							`20% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))/2*.2,grMap,'rgba')};}\n` +
+							`40% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))/2*.4,grMap,'rgba')};}\n` +
+							`50% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))/2*.5,grMap,'rgba')};}\n` +
+							`60% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))/2*.6,grMap,'rgba')};}\n` +
+							`80% {fill: ${gradient.valToColor((prevColorIndex+(randColorIndex+i))/2*.8,grMap,'rgba')};}\n` +
 							`100% {fill: ${newColor};}\n` +
 							`}`;
 					var styleId = `ani-${id}`;
