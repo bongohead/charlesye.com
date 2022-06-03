@@ -49,7 +49,7 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
     {
         $macros = $this->macros;
         // line 4
-        echo "<meta name=\"description\" content=\"Get aggregated macroeconomic data, forecasts, models, and insights including GDP forecasts, interest rate forecasts, and Treasury yield forecasts.\"/>
+        echo "<meta name=\"description\" content=\"Hello! I am a data scientist and economist and this is my portfolio.\"/>
 <link rel=\"canonical\" href=\"https://econforecasting.com\">
 ";
     }
@@ -62,30 +62,14 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
         echo "<script src=\"https://code.highcharts.com/9.1/highcharts-more.js\"></script>
 <script src=\"https://code.highcharts.com/9.1/modules/heatmap.js\"></script>
 
-<!--<script src=\"//code.highcharts.com/stock/highstock.js\"></script>
-<script src=\"//code.highcharts.com/modules/heatmap.js\"></script>
-
-<script src=\"//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js\"></script>
-<script src=\"//code.highcharts.com/maps/modules/map.js\"></script>
-<script src=\"//code.highcharts.com/mapdata/custom/world-robinson.js\"></script>
-<script src=\"//code.highcharts.com/mapdata/custom/europe.js\"></script>
-
-<script src=\"//code.highcharts.com/stock/indicators/indicators.js\"></script>
-<script src=\"//code.highcharts.com/stock/indicators/ema.js\"></script>
-<script src=\"//code.highcharts.com/stock/indicators/bollinger-bands.js\"></script>
-
-<script src=\"static/script-fincontagion.js\"></script>
-<script src=\"static/mapGenerator.js\"></script>
-<script src=\"static/tsGenerator.js\"></script>
--->
 ";
     }
 
-    // line 31
+    // line 15
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 32
+        // line 16
         echo "
 <div class=\"container-fluid\" id=\"homepage-banner\" style=\"min-height:10rem\">
 \t<div class=\"container px-4\">
@@ -95,19 +79,6 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
         <p class=\"lead mb-4\">
         </p>
 
-\t\t<!--
-        <div class=\"d-flex flex-column flex-md-row\">
-          <a href=\"/docs/5.0/getting-started/introduction/\" class=\"btn btn-lg btn-bd-primary mb-3 me-md-3\" onclick=\"ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');\">Get started</a>
-          <a href=\"/docs/5.0/getting-started/download/\" class=\"btn btn-lg btn-outline-secondary mb-3\" onclick=\"ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 5.0.0-beta2');\">Download</a>
-        </div>
-        <p class=\"text-muted mb-0\">
-          Currently <strong>v5.0.0-beta2</strong>
-          <span class=\"px-1\">·</span>
-          <a href=\"https://getbootstrap.com/docs/4.6/getting-started/introduction/\" class=\"link-secondary\">v4.6.x docs</a>
-          <span class=\"px-1\">·</span>
-          <a href=\"/docs/versions/\" class=\"link-secondary\">All releases</a>
-        </p>
-\t\t-->
       </div>
 
       <div class=\"col-12 mx-auto col-md-8 order-md-2 col-lg-6 my-4\" style=\"background-color:rgba(255, 255, 255, .9)\">
@@ -123,13 +94,13 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 \t\t\t\t\t<p>I've made models to explain the macroeconomy, make predictions about individuals' purchasing and saving decisions, and forecast financial time series.</p>
 \t\t\t\t\t<h5 class=\"pt-5\">Work experience:</h5>
 \t\t\t\t\t<ul class=\"list-group border-0\" style=\"font-size:.8rem\">
-\t\t\t\t\t\t<li class=\"list-group-item\">Previously worked as a data scientist in a major bank</li>
+\t\t\t\t\t\t<li class=\"list-group-item\">10+ years in analytics, esp. in payments & banking</li>
 
 \t\t\t\t\t\t<li class=\"list-group-item\">10 years experience in modeling</li>
 \t\t\t\t\t\t<li class=\"list-group-item\">8 years experience in webdev</li>
 \t\t\t\t\t</ul>
 \t\t\t\t</div>
-\t\t\t\t<div class=\"col-4 border-start border-1 text-center px-2 py-3\">
+\t\t\t\t<div class=\"col-4 border-start border-1 text-center px-2 py-3\" style=\"background:linear-gradient(to top, rgb(236, 253, 245), rgb(255, 255, 255), rgb(255, 255, 255))\">
 \t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"36\" height=\"36\" fill=\"currentColor\" class=\"bi bi-graph-up\" viewBox=\"0 0 16 16\">
 \t\t\t\t\t  <path fill-rule=\"evenodd\" d=\"M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z\"/>
 \t\t\t\t\t</svg>
@@ -150,53 +121,17 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 \t\t\t\t\t</svg>
 \t\t\t\t\t<h3 class=\"fw-bolder\">Tech</h3>
 \t\t\t\t\t<hr>
-\t\t\t\t\t<h5 class=\"pt-1\">Front-end web development:</h5>
+\t\t\t\t\t<h5 class=\"pt-1\">Systems development:</h5>
+\t\t\t\t\t<p><strong>Bash</strong>, <strong>Rust</strong></p>
+
+\t\t\t\t\t<h5 class=\"pt-1\">Front-end webdev:</h5>
 \t\t\t\t\t<p><strong>Javascript</strong>, <strong>HTML</strong>, <strong>CSS</strong>, Sass, Bootstrap, Angular, Highcharts.js, DataTables.js</p>
-\t\t\t\t\t<h5 class=\"pt-4\">Server-side web development:</h5>
+\t\t\t\t\t<h5 class=\"pt-4\">Server-side webdev:</h5>
 \t\t\t\t\t<p><strong>PHP</strong>, <strong>SQL</strong>, <strong>Python</strong>, Django, Nginx, Linux</p>
 \t\t\t\t\t<h5 class=\"pt-4\">Other:</h5>
-\t\t\t\t\t<p>Rust, Bash, LaTeX, Wordpress, Git, Terminal</p>
+\t\t\t\t\t<p>LaTeX, Wordpress</p>
 
 \t\t\t\t</div>
-
-
-\t\t\t<!--
-\t\t\t\t<a href=\"/fc-rates-ffr\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Federal Funds Rate &amp; SOFR Forecasts Updated</h5>
-\t\t\t\t\t\t<small>Today</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">FFR &amp; SOFR forecasts have been updated using our futures model</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-
-\t\t\t\t<a href=\"/fc-rates-tcurve\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Treasury Yield Forecasts Updated</h5>
-\t\t\t\t\t\t<small>Today</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">3-month, 1-year, 5-year, 10-year, 20-year, 30-year Treasury yield forecasts have been updated</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-
-\t\t\t\t<a href=\"/ac-assets\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Asset Correlation Index Updated</h5>
-\t\t\t\t\t\t<small>Yesterday</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">Historical data for the Asset Correlation Index has been updated</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-\t\t\t\t
-\t\t\t\t<a href=\"/ac-regions\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Regional Correlation Index Updated</h5>
-\t\t\t\t\t\t<small>Yesterday</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">Historical data for the Asset Correlation Index has been updated</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-\t\t\t\t-->
 \t\t\t</div>
 \t\t</div>
     </div>
@@ -205,10 +140,6 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 
 <hr class=\"m-0\">
 <div class=\"container-fluid px-0 pb-5 bg-light\">
-\t<!--<div class=\"container px-2 py-0\" style=\"height:2rem;background-image:linear-gradient(45deg, var(--bs-econblue) 50%, rgba(255, 255, 255, 0) 50%)\">
-\t\t<h4 class=\"text-white\">My Recent Work</h4>
-\t</div>
-\t-->
 \t
 \t<div class=\"container pt-4 pb-2\">
 \t\t<div class=\"container px-0\">
@@ -248,7 +179,7 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 \t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-sm btn-econblue text-white px-3 ms-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-web\">Github - Website</a>
 \t\t\t\t\t\t\t\t\t</div>
 
-\t\t\t\t\t\t\t\t\t<p>Data scraping and modeling were conducted with <strong>R</strong> (Tidyverse, Data.table), <strong>Python</strong>, and <strong>PostgreSQL</strong>.</p>
+\t\t\t\t\t\t\t\t\t<p>Data scraping and modeling were conducted with <strong>R</strong> (Tidyverse, Data.table), <strong>Python</strong>, and <strong>PostgreSQL</strong> with <strong>TimescaleDB</strong>.</p>
 \t\t\t\t\t\t\t\t\t<p>The front-end of the website was built with <strong>HTML</strong>, <strong>CSS/SCSS</strong>, <strong>Bootstrap</strong>, and <strong>JavaScript</strong> on an Ubuntu VPS. I created the data visualization using the Highcharts, DataTables, and D3 libraries.</p>
 \t\t\t\t\t\t\t\t\t<p>The server side of the website was created with <strong>PHP</strong> and <strong>PostgreSQL</strong> on an Ubuntu VPS.</p>
 \t\t\t\t\t\t\t\t</div>
@@ -401,7 +332,7 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 
     public function getDebugInfo()
     {
-        return array (  89 => 32,  85 => 31,  62 => 9,  58 => 8,  52 => 4,  48 => 3,  37 => 1,);
+        return array (  73 => 16,  69 => 15,  62 => 9,  58 => 8,  52 => 4,  48 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -409,7 +340,7 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
         return new Source("{% extends \"base.html\" %}
 
 {% block meta %}
-<meta name=\"description\" content=\"Get aggregated macroeconomic data, forecasts, models, and insights including GDP forecasts, interest rate forecasts, and Treasury yield forecasts.\"/>
+<meta name=\"description\" content=\"Hello! I am a data scientist and economist and this is my portfolio.\"/>
 <link rel=\"canonical\" href=\"https://econforecasting.com\">
 {% endblock %}
 
@@ -417,22 +348,6 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 <script src=\"https://code.highcharts.com/9.1/highcharts-more.js\"></script>
 <script src=\"https://code.highcharts.com/9.1/modules/heatmap.js\"></script>
 
-<!--<script src=\"//code.highcharts.com/stock/highstock.js\"></script>
-<script src=\"//code.highcharts.com/modules/heatmap.js\"></script>
-
-<script src=\"//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js\"></script>
-<script src=\"//code.highcharts.com/maps/modules/map.js\"></script>
-<script src=\"//code.highcharts.com/mapdata/custom/world-robinson.js\"></script>
-<script src=\"//code.highcharts.com/mapdata/custom/europe.js\"></script>
-
-<script src=\"//code.highcharts.com/stock/indicators/indicators.js\"></script>
-<script src=\"//code.highcharts.com/stock/indicators/ema.js\"></script>
-<script src=\"//code.highcharts.com/stock/indicators/bollinger-bands.js\"></script>
-
-<script src=\"static/script-fincontagion.js\"></script>
-<script src=\"static/mapGenerator.js\"></script>
-<script src=\"static/tsGenerator.js\"></script>
--->
 {% endblock %}
 
 
@@ -446,19 +361,6 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
         <p class=\"lead mb-4\">
         </p>
 
-\t\t<!--
-        <div class=\"d-flex flex-column flex-md-row\">
-          <a href=\"/docs/5.0/getting-started/introduction/\" class=\"btn btn-lg btn-bd-primary mb-3 me-md-3\" onclick=\"ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');\">Get started</a>
-          <a href=\"/docs/5.0/getting-started/download/\" class=\"btn btn-lg btn-outline-secondary mb-3\" onclick=\"ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 5.0.0-beta2');\">Download</a>
-        </div>
-        <p class=\"text-muted mb-0\">
-          Currently <strong>v5.0.0-beta2</strong>
-          <span class=\"px-1\">·</span>
-          <a href=\"https://getbootstrap.com/docs/4.6/getting-started/introduction/\" class=\"link-secondary\">v4.6.x docs</a>
-          <span class=\"px-1\">·</span>
-          <a href=\"/docs/versions/\" class=\"link-secondary\">All releases</a>
-        </p>
-\t\t-->
       </div>
 
       <div class=\"col-12 mx-auto col-md-8 order-md-2 col-lg-6 my-4\" style=\"background-color:rgba(255, 255, 255, .9)\">
@@ -474,13 +376,13 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 \t\t\t\t\t<p>I've made models to explain the macroeconomy, make predictions about individuals' purchasing and saving decisions, and forecast financial time series.</p>
 \t\t\t\t\t<h5 class=\"pt-5\">Work experience:</h5>
 \t\t\t\t\t<ul class=\"list-group border-0\" style=\"font-size:.8rem\">
-\t\t\t\t\t\t<li class=\"list-group-item\">Previously worked as a data scientist in a major bank</li>
+\t\t\t\t\t\t<li class=\"list-group-item\">10+ years in analytics, esp. in payments & banking</li>
 
 \t\t\t\t\t\t<li class=\"list-group-item\">10 years experience in modeling</li>
 \t\t\t\t\t\t<li class=\"list-group-item\">8 years experience in webdev</li>
 \t\t\t\t\t</ul>
 \t\t\t\t</div>
-\t\t\t\t<div class=\"col-4 border-start border-1 text-center px-2 py-3\">
+\t\t\t\t<div class=\"col-4 border-start border-1 text-center px-2 py-3\" style=\"background:linear-gradient(to top, rgb(236, 253, 245), rgb(255, 255, 255), rgb(255, 255, 255))\">
 \t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"36\" height=\"36\" fill=\"currentColor\" class=\"bi bi-graph-up\" viewBox=\"0 0 16 16\">
 \t\t\t\t\t  <path fill-rule=\"evenodd\" d=\"M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z\"/>
 \t\t\t\t\t</svg>
@@ -501,53 +403,17 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 \t\t\t\t\t</svg>
 \t\t\t\t\t<h3 class=\"fw-bolder\">Tech</h3>
 \t\t\t\t\t<hr>
-\t\t\t\t\t<h5 class=\"pt-1\">Front-end web development:</h5>
+\t\t\t\t\t<h5 class=\"pt-1\">Systems development:</h5>
+\t\t\t\t\t<p><strong>Bash</strong>, <strong>Rust</strong></p>
+
+\t\t\t\t\t<h5 class=\"pt-1\">Front-end webdev:</h5>
 \t\t\t\t\t<p><strong>Javascript</strong>, <strong>HTML</strong>, <strong>CSS</strong>, Sass, Bootstrap, Angular, Highcharts.js, DataTables.js</p>
-\t\t\t\t\t<h5 class=\"pt-4\">Server-side web development:</h5>
+\t\t\t\t\t<h5 class=\"pt-4\">Server-side webdev:</h5>
 \t\t\t\t\t<p><strong>PHP</strong>, <strong>SQL</strong>, <strong>Python</strong>, Django, Nginx, Linux</p>
 \t\t\t\t\t<h5 class=\"pt-4\">Other:</h5>
-\t\t\t\t\t<p>Rust, Bash, LaTeX, Wordpress, Git, Terminal</p>
+\t\t\t\t\t<p>LaTeX, Wordpress</p>
 
 \t\t\t\t</div>
-
-
-\t\t\t<!--
-\t\t\t\t<a href=\"/fc-rates-ffr\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Federal Funds Rate &amp; SOFR Forecasts Updated</h5>
-\t\t\t\t\t\t<small>Today</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">FFR &amp; SOFR forecasts have been updated using our futures model</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-
-\t\t\t\t<a href=\"/fc-rates-tcurve\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Treasury Yield Forecasts Updated</h5>
-\t\t\t\t\t\t<small>Today</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">3-month, 1-year, 5-year, 10-year, 20-year, 30-year Treasury yield forecasts have been updated</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-
-\t\t\t\t<a href=\"/ac-assets\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Asset Correlation Index Updated</h5>
-\t\t\t\t\t\t<small>Yesterday</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">Historical data for the Asset Correlation Index has been updated</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-\t\t\t\t
-\t\t\t\t<a href=\"/ac-regions\" class=\"list-group-item list-group-item-action\" aria-current=\"true\">
-\t\t\t\t\t<div class=\"d-flex w-100 justify-content-between\">
-\t\t\t\t\t\t<h5 class=\"mb-1\">Regional Correlation Index Updated</h5>
-\t\t\t\t\t\t<small>Yesterday</small>
-\t\t\t\t\t</div>
-\t\t\t\t\t<p class=\"mb-1\">Historical data for the Asset Correlation Index has been updated</p>
-\t\t\t\t\t<span class=\"btn btn-sm\">Click to go</span>
-\t\t\t\t</a>
-\t\t\t\t-->
 \t\t\t</div>
 \t\t</div>
     </div>
@@ -556,10 +422,6 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 
 <hr class=\"m-0\">
 <div class=\"container-fluid px-0 pb-5 bg-light\">
-\t<!--<div class=\"container px-2 py-0\" style=\"height:2rem;background-image:linear-gradient(45deg, var(--bs-econblue) 50%, rgba(255, 255, 255, 0) 50%)\">
-\t\t<h4 class=\"text-white\">My Recent Work</h4>
-\t</div>
-\t-->
 \t
 \t<div class=\"container pt-4 pb-2\">
 \t\t<div class=\"container px-0\">
@@ -599,7 +461,7 @@ class __TwigTemplate_313e1f1dd64b453d5e82db78871693f1 extends Template
 \t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-sm btn-econblue text-white px-3 ms-1 my-1\" role=\"button\" href=\"https://github.com/cmefi/econforecasting-web\">Github - Website</a>
 \t\t\t\t\t\t\t\t\t</div>
 
-\t\t\t\t\t\t\t\t\t<p>Data scraping and modeling were conducted with <strong>R</strong> (Tidyverse, Data.table), <strong>Python</strong>, and <strong>PostgreSQL</strong>.</p>
+\t\t\t\t\t\t\t\t\t<p>Data scraping and modeling were conducted with <strong>R</strong> (Tidyverse, Data.table), <strong>Python</strong>, and <strong>PostgreSQL</strong> with <strong>TimescaleDB</strong>.</p>
 \t\t\t\t\t\t\t\t\t<p>The front-end of the website was built with <strong>HTML</strong>, <strong>CSS/SCSS</strong>, <strong>Bootstrap</strong>, and <strong>JavaScript</strong> on an Ubuntu VPS. I created the data visualization using the Highcharts, DataTables, and D3 libraries.</p>
 \t\t\t\t\t\t\t\t\t<p>The server side of the website was created with <strong>PHP</strong> and <strong>PostgreSQL</strong> on an Ubuntu VPS.</p>
 \t\t\t\t\t\t\t\t</div>

@@ -60,29 +60,22 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 \t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css\">
 \t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css\" integrity=\"sha512-f2MWjotY+JCWDlE0+QAshlykvZUtIm35A6RHwfYZPdxKgLJpL8B+VVxjpHJwZDsZaWdyHVhlIHoblFYGkmrbhg==\" crossorigin=\"anonymous\" />
 \t
-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css\"/>
-
 \t<script src=\"https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js\"></script>
 \t<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js\"></script>
 
-\t<script src=\"https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js\"></script>
-\t<script src=\"https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap5.min.js\"></script>
-\t
-\t<script src=\"https://cdn.datatables.net/buttons/1.7.0/js/dataTables.buttons.min.js\"></script>
-\t<script src=\"https://cdn.datatables.net/buttons/1.7.0/js/buttons.html5.min.js\"></script> <!-- HTML export buttons -->
 \t
 \t<!-- Bug with v9.0 stripping data-dir attributes from buttons -->
     <script src=\"https://code.highcharts.com/stock/9.1/highstock.js\"></script>
 \t<script src=\"https://code.highcharts.com/9.1/modules/boost.js\"></script>
     ";
-        // line 32
+        // line 25
         echo ($context["pageJS"] ?? null);
         echo "
 
     ";
-        // line 34
+        // line 27
         $this->displayBlock('staticlinks', $context, $blocks);
-        // line 35
+        // line 28
         echo "\t<!-- Global site tag (gtag.js) - Google Analytics -->
 \t<!-- Global site tag (gtag.js) - Google Analytics -->
 \t<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-946EV24B0X\"></script>
@@ -131,9 +124,9 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 \t
 \t<main >
 \t\t";
-        // line 82
+        // line 75
         $this->displayBlock('content', $context, $blocks);
-        // line 84
+        // line 77
         echo "\t</main>
 
 \t<footer class=\"container-fluid text-white px-0 bg-dark\">
@@ -165,7 +158,7 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 \t  <!-- Copyright -->
 \t<div class=\"container-fluid\" style=\"background-color: rgba(0, 0, 0, 0.2)\">
 \t\t<div class=\"container text-end p-2\">
-\t\t\t<span>2021 <img class=\"mx-1\" width=\"16\" height=\"16\" src=\"/static/cmefi_short.png\"> Charles Ye</span>
+\t\t\t<span>2022 <img class=\"mx-1\" width=\"16\" height=\"16\" src=\"/static/cmefi_short.png\"> Charles Ye</span>
 \t\t</div>
 \t</div>
 \t  <!-- Copyright -->
@@ -204,7 +197,7 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 
 \t<script>
 \t  ";
-        // line 153
+        // line 146
         echo ($context["bodyScript"] ?? null);
         echo "
 \t</script>
@@ -219,17 +212,17 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
         $macros = $this->macros;
     }
 
-    // line 34
+    // line 27
     public function block_staticlinks($context, array $blocks = [])
     {
         $macros = $this->macros;
     }
 
-    // line 82
+    // line 75
     public function block_content($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 83
+        // line 76
         echo "\t\t";
     }
 
@@ -245,7 +238,7 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 
     public function getDebugInfo()
     {
-        return array (  233 => 83,  229 => 82,  223 => 34,  217 => 8,  208 => 153,  137 => 84,  135 => 82,  86 => 35,  84 => 34,  79 => 32,  54 => 10,  51 => 9,  49 => 8,  40 => 1,);
+        return array (  226 => 76,  222 => 75,  216 => 27,  210 => 8,  201 => 146,  130 => 77,  128 => 75,  79 => 28,  77 => 27,  72 => 25,  54 => 10,  51 => 9,  49 => 8,  40 => 1,);
     }
 
     public function getSourceContext()
@@ -267,16 +260,9 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 \t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css\">
 \t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.3/css/all.min.css\" integrity=\"sha512-f2MWjotY+JCWDlE0+QAshlykvZUtIm35A6RHwfYZPdxKgLJpL8B+VVxjpHJwZDsZaWdyHVhlIHoblFYGkmrbhg==\" crossorigin=\"anonymous\" />
 \t
-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css\"/>
-
 \t<script src=\"https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js\"></script>
 \t<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js\"></script>
 
-\t<script src=\"https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js\"></script>
-\t<script src=\"https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap5.min.js\"></script>
-\t
-\t<script src=\"https://cdn.datatables.net/buttons/1.7.0/js/dataTables.buttons.min.js\"></script>
-\t<script src=\"https://cdn.datatables.net/buttons/1.7.0/js/buttons.html5.min.js\"></script> <!-- HTML export buttons -->
 \t
 \t<!-- Bug with v9.0 stripping data-dir attributes from buttons -->
     <script src=\"https://code.highcharts.com/stock/9.1/highstock.js\"></script>
@@ -364,7 +350,7 @@ class __TwigTemplate_4135d0e50b6d70cbc24baea66c1aad18 extends Template
 \t  <!-- Copyright -->
 \t<div class=\"container-fluid\" style=\"background-color: rgba(0, 0, 0, 0.2)\">
 \t\t<div class=\"container text-end p-2\">
-\t\t\t<span>2021 <img class=\"mx-1\" width=\"16\" height=\"16\" src=\"/static/cmefi_short.png\"> Charles Ye</span>
+\t\t\t<span>2022 <img class=\"mx-1\" width=\"16\" height=\"16\" src=\"/static/cmefi_short.png\"> Charles Ye</span>
 \t\t</div>
 \t</div>
 \t  <!-- Copyright -->
